@@ -5,7 +5,7 @@ import { Poppins } from "next/font/google";
 import Link from "next/link";
 import { cn } from "../lib/utils";
 import { UserButton } from "@clerk/nextjs";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import { ModeToggle } from "./mode-toggle";
 
 const font = Poppins({
