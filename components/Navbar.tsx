@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div
       className="fixed w-full z-50 flex justify-between items-center 
-    py-2 px-4 shadow-sm"
+    py-2 px-4 shadow-sm bg-secondary"
     >
       <div className="flex items-center p-1.5">
         <Menu className="block md:hidden " />
